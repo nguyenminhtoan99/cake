@@ -244,6 +244,7 @@ header nav .brand {
   position: relative;
   z-index: 1;
   padding-bottom: 30px;
+  text-decoration: none;
 }
 .card-2 {
   width: 400px;
@@ -252,12 +253,14 @@ header nav .brand {
   border-left: 1px solid black;
   border-right: 1px solid black;
   padding-bottom: 30px;
+  text-decoration: none;
 }
 .card-3 {
   width: 400px;
   position: relative;
   z-index: 1;
   padding-bottom: 30px;
+  text-decoration: none;
 }
 
 .card img {
@@ -267,15 +270,12 @@ header nav .brand {
   object-position: center;
   cursor: pointer;
 }
-.card a{
-  text-decoration: none;
-}
+
 .card h6{
     margin: 10px;
     font-size: 18px;
     font-weight: 300;
     line-height: 29px;
-    
     color: black;
 }
 .card p{

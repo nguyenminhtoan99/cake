@@ -67,7 +67,7 @@ header nav .brand {
 
 /* HERO */
 .hero {
-  background-image: url("/banner.webp");
+  background-image: url("./banner.webp");
   padding-top: 164px;
   padding-bottom: 180px;
   padding-left: 100px;

@@ -288,13 +288,14 @@ header nav .brand {
 }
 /* FOOTER */
 footer {
-  height: 400px;
   background-color: #fbf2f7;
   padding-top: 40px;
+  padding-bottom: 10px;
 }
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer h4 {
   font-size: 13px;
@@ -414,4 +415,6 @@ footer {
   .follow{
     margin-bottom: 800px;
   }
+
+
 }

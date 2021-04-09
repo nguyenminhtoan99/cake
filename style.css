@@ -238,9 +238,6 @@ header nav .brand {
   grid-row-gap: 10px;
   padding: 10px;
 }
-.gallery-item:hover{
-  box-shadow: 0 0 11px rgb(33 33 33 / 20%);
-}
 .gallery-img {
   width: 100%;
   height: 300px;

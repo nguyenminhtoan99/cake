@@ -49,6 +49,9 @@ header nav a {
   text-decoration: none;
   color: black;
 }
+header nav a:hover{
+  color: pink;
+}
 header nav .brand {
   font-size: 28px;
   font-weight: 500;
@@ -68,8 +71,8 @@ header nav .brand {
   background-image: url("./banner.webp");
   padding-top: 164px;
   padding-bottom: 180px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
   margin-top: 97px;
   background-attachment: fixed;
   background-size: cover;
@@ -165,6 +168,9 @@ header nav .brand {
   text-decoration: none;
   color: black;
 }
+.product-item .pi-text a:hover{
+  color: pink;
+}
 .product-item .pi-text a h3 {
   font-weight: 350;
   font-size: 13px;
@@ -222,6 +228,9 @@ header nav .brand {
   font-size: 40px;
   font-weight: 100;
 }
+.follow .show:hover{
+  color: pink;
+}
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -229,7 +238,9 @@ header nav .brand {
   grid-row-gap: 10px;
   padding: 10px;
 }
-
+.gallery-item:hover{
+  box-shadow: 0 0 11px rgb(33 33 33 / 20%);
+}
 .gallery-img {
   width: 100%;
   height: 300px;
@@ -318,6 +329,9 @@ footer {
   text-decoration: none;
   color: black;
 }
+.footer ul li a:hover{
+  color: pink;
+}
 .footer_list input {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -349,10 +363,15 @@ footer {
   text-decoration: none;
   color: black;
 }
+.copyright .right a:hover{
+  color: pink;
+}
 .copyright .left a{
   color: black;
 }
-
+.copyright .left a:hover{
+  color: pink;
+}
 
 .dropdown{
   display: none;
@@ -393,7 +412,10 @@ footer {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: pink;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;

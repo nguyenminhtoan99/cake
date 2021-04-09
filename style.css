@@ -55,7 +55,7 @@ header nav .brand {
 }
 .nav-menu {
   padding-top: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
   box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
   background: #fff;
@@ -70,7 +70,7 @@ header nav .brand {
   padding-bottom: 180px;
   padding-left: 100px;
   padding-right: 100px;
-  margin-top: 121px;
+  margin-top: 97px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
